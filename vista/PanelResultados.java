@@ -44,7 +44,7 @@ public class PanelResultados extends JPanel
         setBorder(borde);
     }
     
-    //Borar los resultados
+    //Borrar los resultados
     public void borrar()
     {
         taResultado.setText("");
@@ -55,4 +55,5 @@ public class PanelResultados extends JPanel
     {
         taResultado.append(msj+"\n");
     }
+   
 }
